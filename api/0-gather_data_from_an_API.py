@@ -30,7 +30,6 @@ def main(user_id):
     for q in completed:
         print("\t {}".format(q))
 
-
 if __name__ == '__main__':
     user_id = int(sys.argv[1])
     main(user_id)
