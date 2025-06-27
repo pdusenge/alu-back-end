@@ -7,7 +7,6 @@ import sys
 
 def main(user_id):
     """main function"""
-    # user_id = int(sys.argv[1])
     todo_url = 'https://jsonplaceholder.typicode.com/todos'
     user_url = 'https://jsonplaceholder.typicode.com/users/{}'.format(user_id)
 
@@ -33,4 +32,5 @@ def main(user_id):
 
 
 if __name__ == '__main__':
-    main(1)
+    user_id = int(sys.argv[1])
+    main(user_id)
